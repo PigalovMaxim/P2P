@@ -6,7 +6,7 @@ function Auth() {
     <Layout className="flex justify-center items-center">
       <AuthWindow />
     </Layout>
-  )
+  );
 }
 
 export default Auth

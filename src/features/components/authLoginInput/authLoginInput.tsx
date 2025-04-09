@@ -2,7 +2,6 @@ import Input from "@shared/components/input";
 import { AuthLoginInputErrors, AuthLoginInputProps } from "./authLoginInput.options";
 
 function AuthLoginInput({error, ...props}: AuthLoginInputProps) {
-  console.log(error)
   return (
     <>
       <Input placeholder="Логин" containerClassName="mb-2" {...props}/>
